@@ -20,5 +20,9 @@
   "homepage": "https://github.com/teeehn/test-gitpod#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
