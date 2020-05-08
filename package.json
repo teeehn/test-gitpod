@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/teeehn/test-gitpod/issues"
   },
-  "homepage": "https://github.com/teeehn/test-gitpod#readme"
+  "homepage": "https://github.com/teeehn/test-gitpod#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
