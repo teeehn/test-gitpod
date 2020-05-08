@@ -4,6 +4,7 @@
   "description": "This is a test repo to try out gitpod.",
   "main": "Index.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

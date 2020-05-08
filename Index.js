@@ -1,2 +1,8 @@
 // This is a starter file.
-console.log("hello world");
+(function(){
+    function init() {
+        const root = document.getElementById("root");
+        root.innerHTML = "<h1>Hello gitpod!</h1>";
+    }
+    window.onload = init;
+}());
