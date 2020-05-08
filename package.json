@@ -1,0 +1,20 @@
+{
+  "name": "test-gitpod",
+  "version": "1.0.0",
+  "description": "This is a test repo to try out gitpod.",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teeehn/test-gitpod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/teeehn/test-gitpod/issues"
+  },
+  "homepage": "https://github.com/teeehn/test-gitpod#readme"
+}
