@@ -7,6 +7,15 @@ const user_styles = createUseStyles({
         display: "block",
         composes: "form-label",
         marginBottom: ".5rem"
+    },
+    app_heading: {
+        color: "red",
+        fontFamily: "Ariel, Helvetica",
+        composes: "$crazy_type"
+    },
+    crazy_type: {
+        color: "green",
+        textDecoration: "underline"
     }
 });
 
@@ -35,6 +44,8 @@ function TextInput({
 }
 
 function App() {
+
+    const styles = user_styles();
 
     const initial_state = {
         form_values: {
@@ -70,7 +81,7 @@ function App() {
 
     return (
         <>
-            <h1>Hello from react!</h1>
+            <h1 className={styles.app_heading}>Hello from react!</h1>
             <TextInput
                 label="Test Input"
                 id="test-input"
