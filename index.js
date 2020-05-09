@@ -1,5 +1,14 @@
 import React, { useReducer } from "react";
 import ReactDOM from "react-dom";
+import { createUserStyles } from "react-jss";
+
+const user_styles = createUserStyles({
+    app_label: {
+        display: "block",
+        marginBottom: ".5rem",
+        composes: "group-label"
+    }
+})
 
 function TextInput({
     id,
@@ -8,9 +17,12 @@ function TextInput({
     value,
     handleChange
 }) {
+
+    const styles = user_styles();
+
     return (
         <div className="form-group">
-            <label htmlFor={id} className="form-label">{label}</label>
+            <label htmlFor={id} className={styles.app_label}>{label}</label>
             <input
                 id={id}
                 onChange={(e) => handleChange(id, e)}
