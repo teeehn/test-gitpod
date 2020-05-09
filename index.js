@@ -1,14 +1,12 @@
 import React, { useReducer } from "react";
 import ReactDOM from "react-dom";
-import { createUserStyles } from "react-jss";
+import { createUseStyles } from "react-jss";
 
-const user_styles = createUserStyles({
+const user_styles = createUseStyles({
     app_label: {
-        display: "block",
-        marginBottom: ".5rem",
-        composes: "group-label"
+        display: "block"
     }
-})
+});
 
 function TextInput({
     id,
