@@ -4,7 +4,9 @@ import { createUseStyles } from "react-jss";
 
 const user_styles = createUseStyles({
     app_label: {
-        display: "block"
+        display: "block",
+        composes: "form-label",
+        marginBottom: ".5rem"
     }
 });
 
