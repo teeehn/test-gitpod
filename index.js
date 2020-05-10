@@ -3,6 +3,23 @@ import ReactDOM from "react-dom";
 import { createUseStyles } from "react-jss";
 
 const user_styles = createUseStyles({
+    "@global": {
+        "*": {
+            boxSizing: "border-box"
+        },
+        html: {
+            margin: 0,
+            padding: 0,
+            height: "100%"
+        },
+        body: {
+            background: "lightblue",
+            border: "5px solid green",
+            margin: 0,
+            padding: 0,
+            height: "100%"
+        }
+    },
     app_label: {
         display: "block",
         composes: "form-label",
@@ -15,7 +32,8 @@ const user_styles = createUseStyles({
     },
     crazy_type: {
         color: "green",
-        textDecoration: "underline"
+        textDecoration: "underline",
+        fontStyle: "italic"
     }
 });
 
